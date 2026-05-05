@@ -1,0 +1,15 @@
+﻿{
+    "name":  "ucampus-ai-auto-crawler",
+    "version":  "1.0.0",
+    "private":  true,
+    "type":  "module",
+    "description":  "UCampus AI auto crawler for extracting course questions into Word documents",
+    "scripts":  {
+                    "crawl":  "node src/crawl-current-page.js",
+                    "install-browser":  "playwright install chromium"
+                },
+    "dependencies":  {
+                         "docx":  "^9.6.1",
+                         "playwright":  "^1.53.0"
+                     }
+}
