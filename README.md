@@ -53,7 +53,13 @@ npm -v
 进入项目目录：
 
 ```powershell
-cd "<你的项目路径>\English4"
+cd "<UCampus AI Auto Crawler 项目目录>"
+```
+
+例如项目放在桌面时：
+
+```powershell
+cd "C:\Users\你的用户名\Desktop\UCampus AI Auto Crawler"
 ```
 
 安装依赖：
@@ -152,7 +158,7 @@ C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 回到 PowerShell，进入项目目录：
 
 ```powershell
-cd "<你的项目路径>\UCampus AI Auto Crawler"
+cd "<UCampus AI Auto Crawler 项目目录>"
 ```
 
 执行：
@@ -189,7 +195,7 @@ output/
 文件命名格式：
 
 ```text
-Unit编号——分类——题目类型.docx
+Unit编号——Further listening——页面类型[——子标签].docx
 ```
 
 示例：
@@ -324,10 +330,10 @@ npm run crawl
 
 ## 九、推荐完整操作流程
 
-每次从零开始，推荐按这个顺序操作。请先把 `<你的项目路径>` 和 `<你的临时浏览器配置目录>` 替换为你自己的实际路径：
+每次从零开始，推荐按这个顺序操作。请先把 `<UCampus AI Auto Crawler 项目目录>` 和 `<你的临时浏览器配置目录>` 替换为你自己的实际路径：
 
 ```powershell
-cd "<你的项目路径>\English4"
+cd "<UCampus AI Auto Crawler 项目目录>"
 npm install
 & "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="<你的临时浏览器配置目录>"
 ```
@@ -345,5 +351,4 @@ npm run crawl
 ```text
 output/全部题目汇总.docx
 ```
-
 
